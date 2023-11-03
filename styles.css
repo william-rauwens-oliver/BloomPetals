@@ -1,0 +1,462 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7ced2;
+    margin: 0;
+    padding: 0;
+}
+/* Style pour surligner le menu lors du survol */
+header nav ul li:hover {
+    background-color: #747373; /* Couleur de fond lors du survol */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li:hover a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header {
+    background-color: #4b4f53;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 60px auto;
+    padding: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center; /* Pour centrer le contenu au milieu de la page */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+.service h2 {
+    color: #333;
+}
+
+/* Style pour l'onglet de recherche */
+.search-tab {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-tab form {
+    display: flex;
+}
+
+.search-tab input[type="text"] {
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.search-tab button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style pour la galerie d'images */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.image-gallery img {
+    max-width: 24%;
+    height: auto;
+}
+
+/* Style pour les textes en carré */
+.text-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    flex: 0 0 calc(33.33% - 20px); /* 3 colonnes avec espacement */
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.text-content h2 {
+    color: #333;
+}
+
+.text-content p {
+    line-height: 1.5;
+}
+.bottom-bar {
+    background-color: #4b4f53;
+    height: 20px;
+    width: 100%;
+    position: fixed; /* Position fixe pour la placer en bas de la fenêtre visible */
+    bottom: 0; 
+    left: 0; 
+}
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.image-gallery img {
+    max-width: 24%;
+    height: auto;
+    border: 2px solid #817f7f;
+    margin: 5px;
+    border-radius: 5px;
+}
+p i {
+    font-family: 'Roboto', sans-serif;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-gallery img {
+    max-width: 24%;
+    height: auto;
+    border: 2px solid #333;
+    margin: px;
+    border-radius: 5px;
+}
+
+/* entreprise.html : */
+
+/* Style pour l'équipe membre */
+.team-member {
+    display: flex;
+    align-items: center;
+}
+
+/* Style pour l'image de l'équipe membre */
+.team-member img {
+    width: 200px;
+    height: 145px;
+}
+
+/* Style pour les informations de l'équipe membre */
+.team-member .member-info {
+    margin-left: 20px;
+}
+
+/* Style pour le texte "Alice Duval - Fleuriste en chef" */
+.team-member .member-info p:first-child {
+    font-weight: bold;
+}
+.team-member img {
+    transform: rotate(1deg);
+    margin: 10px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* contact.html : */
+
+/* Style pour le formulaire de contact */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form select,
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Permet de redimensionner la zone de texte verticalement */
+}
+
+.contact-form input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+/* Style pour le conteneur du formulaire et de l'image */
+.contact-form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-form {
+    flex: 1;
+}
+.box4 {
+    display: flex;
+    margin-top: -21px;
+    max-width: 295px;
+    max-height: 334px;
+}
+
+.box5{
+    margin-top: 103px;
+    max-width: 295px;
+    max-height: 334px;
+}
+/* Style pour aligner l'image "Flower.png" à gauche mais au milieu de la section */
+.contact-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.contact-form-container {
+    margin: 0 auto;
+}
+
+/* réalisation.html */
+
+/* Styles spécifiques à la page de réalisations */
+.mosaic-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -5px; /* Ajoute un espace négatif pour compenser les marges négatives */
+}
+
+.mosaic-container img {
+    flex: 0 0 calc(25% - 10px); 
+    height: auto;
+    margin: 5px;
+}
+.mosaic-container {
+    margin-top: 30px;
+}
+/* Styles spécifiques à la page de réalisations */
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+    font-family: 'CursiveFont', cursive;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* Utilisation des médias requêtes pour les écrans étroits (par exemple, les téléphones) */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .search-tab {
+        position: relative;
+        margin-top: 0px;
+    }
+    
+    /* Pour aligner "Home, Entreprise, Réalisations" sur la même ligne et "Contact" à côté */
+    li:nth-child(4) {
+        display: inline;
+        margin-left: 10px;
+    }
+}
+
+/* Recadrage des titres pour les écrans de téléphone uniquement */
+@media screen and (max-width: 828px) {
+    h1, h2 {
+        text-align: center; 
+        font-size: 20px;
+        margin: 20px 0;
+        text-transform: uppercase;
+        font-family: 'CursiveFont', cursive;
+        color: #333;
+    }
+}
+/* Ajoutez ces styles pour les écrans étroits, exemple les téléphones) */
+@media screen and (max-width: 828px) {
+    .contact-image {
+        display: none; /* Masquer l'image "Flower.png" sur les téléphones */
+    }
+
+    .contact-form-container {
+        flex-direction: column; /* Afficher le formulaire au-dessus de l'image sur les téléphones */
+    }
+
+    .contact-form {
+        max-width: 100%; /* Ajuster la largeur du formulaire à la largeur de l'écran sur les téléphones */
+    }
+
+    .contact-form label, .contact-form select, .contact-form input, .contact-form textarea, .contact-form button {
+        width: 100%; /* Ajuster la largeur de tous les éléments du formulaire à la largeur de l'écran sur les téléphones */
+    }
+
+    .box4 {
+        margin-top: 10px; /* Ajouter une marge supérieure pour déplacer l'image "Flower.png" vers le bas */
+    }
+}
+/* Centrer les titres des pages sur les écrans de téléphone */
+@media screen and (max-width: 828px) {
+    h1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 828px) {
+    .text-box {
+        flex-direction: row;
+    }
+
+    .text-content {
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+    }
+}
+/* Styles pour positionner le bouton de recherche à droite de la barre de recherche */
+.search-tab form {
+    display: flex;
+    justify-content: space-between; /* Place les éléments en fin de ligne avec un espace entre eux */
+}
+
+.search-tab input[type="text"] {
+    flex: 1; /* Permet à la barre de recherche de prendre tout l'espace restant */
+}
+
+.search-tab button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Styles pour redimensionner les images en fonction de la taille de l'écran */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles pour la section de barre inférieure */
+@media screen and (max-width: 1170px) {
+    .bottom-bar {
+        height: 20px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #4b4f53; /* Couleur de fond correspondant à la barre inférieure */
+    }
+    
